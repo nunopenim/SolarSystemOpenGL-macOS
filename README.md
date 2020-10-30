@@ -11,13 +11,15 @@ C++ and GLSL are the main programming languages of this project.
 
 ## How to render
 
-The following guide is for Ubuntu 18.04 (possibly 20.04) and it's variants (Xubuntu, Lubuntu, etc...). There is also a [Windows version](https://github.com/nunopenim/SolarSystemOpenGL-Windows), that requires Visual Studio 2019 (Community Edition is fine and enough!)
+The following guide is for macOS Catalina 10.15.6. There is also a [Windows version](https://github.com/nunopenim/SolarSystemOpenGL-Windows), that requires Visual Studio 2019 (Community Edition is fine and enough!)
 
 First make sure that you have all the required dependencies installed. To install them, run the following command:
 
-`sudo apt-get install make libglu1-mesa-dev freeglut3-dev mesa-common-dev libglfw3 libglfw3-dev libglew-dev libglm-dev libsdl2-dev binutils-gold g++ mesa-common-dev build-essential libglew1.5-dev libglm-dev `
+`brew install gcc glew glfw`
 
-Secondly, compile! To do such, on the top of the directory, type:
+Make sure to also have GLAD and OpenGL headers installed. An excellent guide (not mine), in how to do this, can be found [here](https://giovanni.codes/opengl-setup-in-macos/)
+
+Lastly, compile! To do such, on the top of the directory, type:
 
 `make`
 
