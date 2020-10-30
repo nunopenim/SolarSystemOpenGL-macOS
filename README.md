@@ -11,7 +11,7 @@ C++ and GLSL are the main programming languages of this project.
 
 ## How to render
 
-The following guide is for macOS Catalina 10.15.6. There is also a [Windows version](https://github.com/nunopenim/SolarSystemOpenGL-Windows), that requires Visual Studio 2019 (Community Edition is fine and enough!)
+The following guide is for macOS Catalina 10.15.X. There are also a [Windows version](https://github.com/nunopenim/SolarSystemOpenGL-Windows) and a [Linux version](https://github.com/nunopenim/SolarSystemOpenGL-Linux)
 
 First make sure that you have all the required dependencies installed. To install them, run the following command:
 
