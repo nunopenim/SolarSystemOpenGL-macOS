@@ -7,7 +7,7 @@
 
 CC = g++
 
-GLFLAGS = -lGL -lGLU -lGLEW -lglfw
+GLFLAGS = -framework GLUT -framework OpenGL -lGLFW -lglew
 
 OBJ1 = main.cpp
 
