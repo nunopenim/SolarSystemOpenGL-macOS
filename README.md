@@ -15,7 +15,7 @@ The following guide is for macOS Catalina 10.15.X. There are also a [Windows ver
 
 First make sure that you have all the required dependencies installed. To install them, run the following command:
 
-`brew install gcc glew glfw`
+`brew install gcc glew glfw3`
 
 Make sure to also have GLAD and OpenGL headers installed. An excellent guide (not mine), in how to do this, can be found [here](https://giovanni.codes/opengl-setup-in-macos/)
 
