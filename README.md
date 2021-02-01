@@ -41,6 +41,8 @@ For better organization, there will be added in future an output directory, to k
 
 ## Information
 
+Soon, an XCode version will be released, when I figure out why XCode is complaining about the "wtypes.h" include, in Window.cpp.
+
 ### Issues
 
 For any issues with this, you can use the GitHub issues tab. I appreciate if you write [ISSUE] at beginning of the title, although this is not a strict requirement.
